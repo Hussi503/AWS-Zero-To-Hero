@@ -1,1 +1,3 @@
 
+These NACL define inbound and outbound rule for subnets present in VPC. These have almost the same function as Security Groups the only difference
+is NACL works in subnet levels and Security groups are defined for instances and other resources.
