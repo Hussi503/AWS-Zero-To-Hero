@@ -1,0 +1,2 @@
+It performs the function of a virtual firewall, managing the inbound and outbound traffic for one or more Amazon EC2 instances or other 
+AWS services within a VPC.
