@@ -1,0 +1,14 @@
+An AWS VPC Route Table is a set of rules that determine where the network traffic from your subnet or gateway is directed.
+Each subnet (range of IP addresses in your VPC) is associated with a route table that controls the traffic flow between subnets.
+A route table has a destination address which determines where the network is directed. Route tables are essential when dealing 
+with IPv4/IPv6 CIDR blocks, private or public subnets, network gateways, VPC endpoints, etc.
+
+
+
+
+Components of a Route Table
+# Entries: Each route entry specifies a destination CIDR Block and a target.
+Route Table ID: A unique identifier used to manage the route table through API calls, CLI commands, and the Management console.
+Associations: Associations specify which subnet uses the route present in the route table for the traffic.
+Target: Specifies where a network should be directed. For example, internet gateway, virtual private gateway, NAT gateway, etc.
+Destination CIDR Blocks: Range of IP addresses where you want your traffic to go to a particular destination which is represented in CIDR Block (eg. 192.0.0.0/16).
